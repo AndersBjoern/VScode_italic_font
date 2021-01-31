@@ -26,7 +26,6 @@ search: settings.json
             "scope": [
                 //following will be in italics 
                 "constant", //String, Number, Boolean…, this, super
-                "entity.name.type.class", //class names
                 "storage.modifier", //static keyword
                 "storage.type.class.js", //class keyword
                 "keyword", //import, export, return…
@@ -40,6 +39,7 @@ search: settings.json
                 //following will be excluded from italics
                 "comment",
                 "invalid",
+                "entity.name.type.class", 
                 "keyword.operator",
                 "constant.numeric.css",
                 "keyword.other.unit.px.css",
